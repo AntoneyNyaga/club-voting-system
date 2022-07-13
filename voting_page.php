@@ -74,7 +74,7 @@ $rtnReadPos = $readPos->READ_POSITION($org);
                                 <?php if($rtnValVote->num_rows > 0) { ?>
                                 <?php echo "class='btn btn-default disabled'>"; ?>
                                 <?php } else { ?>
-                                <?php echo "class='btn btn-info'>"; ?>>
+                                <?php echo "class='btn btn-info'>"; ?>
                                 <?php } //End if ?>
                             Vote
                         </button>
