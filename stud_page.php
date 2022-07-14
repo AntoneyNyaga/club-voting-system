@@ -25,7 +25,7 @@ $rtnReadOrg = $readOrganization->READ_ORG();
                 <div class="form-group">
                     <label for="organization">Club</label>
                     <select required class="form-control" name="organization">
-                        <option value="">*****Select Club*****</option>
+                        <option value="">***Select Club***</option>
 
                         <?php $query=mysqli_query($db,"select * from organization where status=1");
                         $cnt=1; while($row=mysqli_fetch_array($query)){
