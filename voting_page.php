@@ -2,7 +2,7 @@
 //Include authentication
 require("process/auth.php");
 
-//Include database connection
+//Connection to database
 require("config/db.php");
 
 //Include class Voting
