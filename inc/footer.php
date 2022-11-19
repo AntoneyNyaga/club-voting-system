@@ -3,7 +3,11 @@
 
     <div class="container">
         <div class="navbar-text pull-left">
-        Copyright <?php echo date("d-m-Y") ?
+        Copyright <?php echo date("d-m-Y") ?>
+
+        </div>
+    </div>
+
 </nav>
 <!-- End Footer -->
 
