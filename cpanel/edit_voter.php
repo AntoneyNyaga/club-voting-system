@@ -17,7 +17,7 @@ require("classes/Voters.php");
         <div class="col-md-4 col-md-offset-4">
             <?php
             if(isset($_POST['update'])) {
-                $name       = trim($_POST['name']);
+                $name       =trim($_POST['name']);
                 $course     = trim($_POST['course']);
                 $year       = trim($_POST['year']);
                 $stud_id    = trim($_POST['stud_id']);
