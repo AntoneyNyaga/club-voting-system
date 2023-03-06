@@ -10,7 +10,10 @@ require("../config/db.php");
 require("classes/Organization.php");
 
 ?>
-
+<?php
+// Check if id is set or not, if true,
+// toggle else simply go back to the page
+if (isset($_GET['id'])){
 
     // Store the value from get to
     // a local variable "course_id"
