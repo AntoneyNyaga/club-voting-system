@@ -15,12 +15,7 @@ require("classes/Organization.php");
 // toggle else simply go back to the page
 if (isset($_GET['id'])){
 
-    // Store the value from get to
-    // a local variable "course_id"
-    $organization_id=$_GET['id'];
-
-    // SQL query that sets the status to
-    // 0 to indicate deactivation.
+ 
     $sql="UPDATE `organization` SET
         `status`=0 WHERE id='$organization_id'";
 
