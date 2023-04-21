@@ -60,7 +60,7 @@ $rtnReadOrg = $readOrg->READ_ORG();
                 $rtnReadPos = $readPos->READ_POS_BY_ORG($org);
                 ?>
 
-                <?php if($rtnReadPos) { ?>
+            
 
                     <?php while($rowPos = $rtnReadPos->fetch_assoc()) { ?>
                     <h5><?php echo $rowPos['pos']; ?></h5>
