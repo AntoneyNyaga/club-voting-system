@@ -46,11 +46,7 @@ $rtnReadOrg = $readOrg->READ_ORG();
 
         <div class="col-md-9">
             <?php
-            if(!isset($_GET['organization'])) {
-                echo "<div class='alert alert-warning'>Please select Club and click submit to show vote result.</div>";
-            } else {
-            $org = trim($_GET['organization']);
-            ?>
+            
                 <a href="http://localhost/voting/cpanel/print_result.php?organization=<?php echo $org; ?>"><h3><span class="glyphicon glyphicon-print pull-right"></h3></span> </a>
                 <h4><?php echo $org; ?> Result</h4>
                 <hr>
