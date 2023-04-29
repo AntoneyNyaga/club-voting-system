@@ -24,7 +24,13 @@ require("classes/Organization.php");
                 }
 
 
-               
+                if(isset($_GET['del_id'])) {
+                    $id_to_del = $_GET['del_id'];
+
+                    $delOrg = new Organization();
+                    $rtnDelOrg = $delOrg->DELETE_ORG($id_to_del);
+                }
+                ?>
             </div>
         </div>
     </div>
