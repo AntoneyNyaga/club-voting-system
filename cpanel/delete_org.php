@@ -38,5 +38,5 @@ require("classes/Organization.php");
     <?php include_once ("inc/footer.php");?>
     
 <?php
-
+//Close database connection
 $db->close();
