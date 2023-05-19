@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\config",
+    "\\cpanel",
+    "\\db",
+    "\\inc"
   ],
-  "SelectedNode": "\\C:\\Users\\SoftClansIntern\\Source\\Repos\\club-voting-system",
+  "SelectedNode": "\\cpanel\\delete_nominee.php",
   "PreviewInSolutionExplorer": false
 }
