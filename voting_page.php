@@ -5,7 +5,7 @@ require("process/auth.php");
 
 require("config/db.php");
 
-//Include class Voting
+
 require("classes/Voting.php");
 ?>
 
