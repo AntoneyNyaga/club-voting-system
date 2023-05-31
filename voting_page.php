@@ -1,8 +1,8 @@
 <?php
-//Include authentication
+
 require("process/auth.php");
 
-//Connection to database
+
 require("config/db.php");
 
 //Include class Voting
