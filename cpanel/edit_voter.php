@@ -15,7 +15,19 @@ require("classes/Voters.php");
 <div class="container">
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
-            
+            <?php
+            if(isset($_POST['update'])) {
+                $name       = trim($_POST['name']);
+                $course     = trim($_POST['course']);
+                $year       = trim($_POST['year']);
+                $stud_id    = trim($_POST['stud_id']);
+                $voter_id   = trim($_POST['voter_id']);
+
+                $updateVoter = new Voters();
+                $rtnUpdateVoter = $updateVoter->UPDATE_VOTER($name, $course, $year, $stud_id, $voter_id);
+
+            }
+            ?>
             <h4>Edit Voter</h4><hr>
             <?php
             if(isset($_GET['id'])) {
