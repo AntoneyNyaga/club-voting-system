@@ -1,11 +1,4 @@
-<?php
 
-//Include authentication
-require("process/auth.php");
-
-?>
-
-<?php include_once("inc/header.php"); ?>
 
 <div class="container">
     <div class="row">
