@@ -1,6 +1,6 @@
 <?php
 
-
+//This code connects to the database
 define("HOST_NAME", "localhost");
 define("HOST_USER", "root");
 define("HOST_PASS", "");
