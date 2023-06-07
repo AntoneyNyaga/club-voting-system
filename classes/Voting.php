@@ -1,18 +1,7 @@
 <?php
 class Voting
 {
-    public function READ_ORG() {
-        global $db;
 
-        $sql = "SELECT * FROM organization ORDER BY org ASC";
-        if(!$stmt = $db->prepare($sql)) {
-            echo $stmt->error;
-        } else {
-            $stmt->execute();
-            $result = $stmt->get_result();
-        }
-        return $result;
-    }
 
     public function READ_POSITION($org) {
         global $db;
