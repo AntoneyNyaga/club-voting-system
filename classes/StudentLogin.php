@@ -11,7 +11,14 @@ class StudentLogin
     public function StudLogin() {
         global $db;
 
+        //Start session
+        session_start();
 
+        //Array to store error message
+        $error_msg_array = array();
+
+        //Error messages
+        $error_msg = FALSE;
 
         if($this->_stud_id == "") {
             $error_msg_array[] = "Please input your student ID number.";
