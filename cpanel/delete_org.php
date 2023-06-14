@@ -15,19 +15,3 @@ require("classes/Organization.php");
 
 <div class="container">
         <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-          
-
-                    $delOrg = new Organization();
-                    $rtnDelOrg = $delOrg->DELETE_ORG($id_to_del);
-                }
-                ?>
-            </div>
-        </div>
-    </div>
-
-    <?php include_once ("inc/footer.php");?>
-    
-<?php
-//Close database connection
-$db->close();
