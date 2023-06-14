@@ -41,7 +41,7 @@ $rtnReadOrg = $readOrg->READ_ORG();
             </form>
         </div>
             <?php $rtnReadOrg->free(); ?>
-       
+        <?php } //End if ?>
 
 
         <div class="col-md-9">
