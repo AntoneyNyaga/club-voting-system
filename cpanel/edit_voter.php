@@ -69,15 +69,7 @@ require("classes/Voters.php");
                 <div class="form-group-sm">
                     <label for="stud_id">Student ID No.</label>
                     <input required type="text" name="stud_id" class="form-control" value="<?php echo $rowVoter['stud_id']; ?>">
-                </div><hr>
-                <div class="form-group-sm">
-                    <input type="hidden" name="voter_id" value="<?php echo $rowVoter['id']; ?>">
-                    <input type="submit" name="update" value="Update" class="btn btn-info">
-                </div>
-                <?php } //End while ?>
-            </form>
-                <?php $rtnEditVoter->free(); ?>
-            <?php } //End if ?>
+                
         </div>
     </div>
 </div>
