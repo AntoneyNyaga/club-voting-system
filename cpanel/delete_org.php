@@ -11,7 +11,3 @@ require("classes/Organization.php");
 
 ?>
 
-<?php include_once ("inc/header.php");?>
-
-<div class="container">
-        <div class="row">
