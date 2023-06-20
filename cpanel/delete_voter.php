@@ -6,7 +6,6 @@ require("process/auth.php");
 //Include database connection
 require("../config/db.php");
 
-//Include class Voters
 require("classes/Voters.php");
 
 ?>
