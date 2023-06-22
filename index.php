@@ -1,13 +1,4 @@
-<?php
-//Start session
-session_start();
 
-unset($_SESSION['ID']);
-unset($_SESSION['NAME']);
-unset($_SESSION['COURSE']);
-unset($_SESSION['YEAR']);
-unset($_SESSION['STUD_ID']);
-?>
 
 <?php include_once ("inc/header.php");?>
 
