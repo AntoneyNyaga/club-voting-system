@@ -17,7 +17,8 @@ require("classes/Voters.php");
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
             <?php
-            
+            if(isset($_GET['id'])) {
+                $voter_id = trim($_GET['id']);
 
                 echo "<div class='alert alert-danger'>Are you sure you want to delete selected voter? <a href='http://localhost/voting/cpanel/delete_voter.php?del_id=$voter_id'>Yes</a> | <a href='http://localhost/voting/cpanel/add_voters.php'>No</a></div>";
             }
