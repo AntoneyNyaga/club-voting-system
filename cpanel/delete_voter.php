@@ -28,7 +28,7 @@ require("classes/Voters.php");
                 $id_to_del = $_GET['del_id'];
 
                 $delVoter = new Voters();
-                $rtnDelVoter = $delVoter->DELETE_VOTER($id_to_del);
+                $rtnDelVoter = $delVoter->DELETE_VOTER($id);
             }
             ?>
         </div>
