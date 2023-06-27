@@ -1,13 +1,4 @@
-<?php
-//Include authentication
-require("process/auth.php");
 
-//Include database connection
-require("config/db.php");
-
-//Include class Voting
-require("classes/Voting.php");
-?>
 
 <?php include_once ("inc/header.php");?>
 
