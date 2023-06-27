@@ -39,4 +39,4 @@ unset($_SESSION['STUD_ID']);
     </div>
 </div>
 
-<?php include_once ("inc/footer.php");?>
+
