@@ -68,13 +68,13 @@ require("classes/Nominees.php");
                         <option value="">*****Select Course*****</option>
                         <option value="BSIT">BSIT</option>
                         <option value="COE">COE</option>
-                        <option value="BEE">BEE</option>
                         <option value="BSE">BSE</option>
                         <option value="BSA">BSA</option>
                         <option value="BSF">BSF</option>
                         <option value="BHRM">BHRM</option>
                         <option value="BSHT">BSHT</option>
-
+                        <option value="CRIMINOLOGY">CRIMINOLOGY</option>
+                        <option value="MIDWIFERY">MIDWIFERY</option>
                     </select>
                 </div>
                 <div class="form-group-sm">
