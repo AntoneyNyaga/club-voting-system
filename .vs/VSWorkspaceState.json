@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\cpanel"
   ],
-  "SelectedNode": "\\stud_page.php",
+  "SelectedNode": "\\cpanel\\add_nominees.php",
   "PreviewInSolutionExplorer": false
 }
