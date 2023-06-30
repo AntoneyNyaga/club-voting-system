@@ -74,7 +74,8 @@ require("classes/Nominees.php");
                         <option value="BSF">BSF</option>
                         <option value="BHRM">BHRM</option>
                         <option value="BSHT">BSHT</option>
-                     
+                        <option value="CRIMINOLOGY">CRIMINOLOGY</option>
+                        <option value="MIDWIFERY">MIDWIFERY</option>
                     </select>
                 </div>
                 <div class="form-group-sm">
