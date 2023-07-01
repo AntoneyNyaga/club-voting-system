@@ -26,9 +26,7 @@ require("classes/Nominees.php");
                 $org        = trim($_POST['organization']);
                 $pos        = trim($_POST['position']);
                 $name       = trim($_POST['name']);
-                $course     = trim($_POST['course']);
-                $year       = trim($_POST['year']);
-                $stud_id    = trim($_POST['stud_id']);
+               
 
                 $insertNominee = new Nominees();
                 $rtnInsertNominee = $insertNominee->INSERT_NOMINEE($org, $pos, $name, $course, $year, $stud_id);
