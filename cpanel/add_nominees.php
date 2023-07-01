@@ -11,8 +11,7 @@ require("../config/db.php");
 //Include class Position
 require("classes/Position.php");
 
-//Include class Nominees
-require("classes/Nominees.php");
+
 
 ?>
 <?php include_once("inc/header.php"); ?>
