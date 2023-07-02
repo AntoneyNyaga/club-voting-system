@@ -52,12 +52,7 @@ require("classes/Nominees.php");
                         <?php $rtnReadOrg->free(); ?>
                     <?php } //End if ?>
                 </div>
-                <div class="form-group-sm">
-                    <label for="position">Position</label>
-                    <select required name="position" class="form-control" id="pos-list">
-                        <option value="">*****Select Position*****</option>
-                    </select>
-                </div>
+                
                 <div class="form-group-sm">
                     <label for="name">Name</label>
                     <input required type="text" name="name" class="form-control" placeholder="LName, FName MI.">
