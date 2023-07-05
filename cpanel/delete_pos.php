@@ -38,5 +38,5 @@ require("classes/Position.php");
     <?php include_once ("inc/footer.php");?>
 
 <?php
-//Close database connection
+/* Close database connection*/
 $db->close();
