@@ -27,8 +27,6 @@ require("classes/Position.php");
                 if(isset($_GET['del_id'])) {
                     $id_to_del = $_GET['del_id'];
 
-                    $delPos = new Position();
-                    $rtnDelPos = $delPos->DELETE_POS($id_to_del);
                 }
                 ?>
             </div>
