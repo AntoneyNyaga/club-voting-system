@@ -1,8 +1,3 @@
-<?php
-//Include database connection
-require("../config/db.php");
-?>
-<html>
 
 
 <?php
