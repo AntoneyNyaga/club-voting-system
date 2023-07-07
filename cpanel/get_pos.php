@@ -1,16 +1,6 @@
 
 
-<?php
-$org = trim($_POST['org']);
-$sql = "SELECT * FROM positions WHERE org = ?";
-if(!$stmt = $db->prepare($sql)) {
-    echo $stmt->error;
-} else {
-    $stmt->bind_param("s", $org);
-    $stmt->execute();
-    $result = $stmt->get_result();
-}
-?>
+
 
 <option value="">*****Select Position*****</option>
 <?php if($result) { ?>
